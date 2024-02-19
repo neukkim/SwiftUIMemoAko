@@ -13,7 +13,11 @@ struct SwiftUIMemoAkoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          //제거
+          //ContentView()
+          
+          //변경
+          MainListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
