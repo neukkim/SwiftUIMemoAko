@@ -13,6 +13,8 @@
 		4417C5072B832DF300CE8B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4417C5062B832DF300CE8B7C /* Assets.xcassets */; };
 		4417C50B2B832DF300CE8B7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4417C50A2B832DF300CE8B7C /* Preview Assets.xcassets */; };
 		4417C5122B832F5000CE8B7C /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4417C5112B832F5000CE8B7C /* MainListView.swift */; };
+		44902AC12B84DDEB00095195 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44902AC02B84DDEB00095195 /* Memo.swift */; };
+		44902AC32B84E04600095195 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44902AC22B84E04600095195 /* MemoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4417C5082B832DF300CE8B7C /* SwiftUIMemoAko.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIMemoAko.entitlements; sourceTree = "<group>"; };
 		4417C50A2B832DF300CE8B7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4417C5112B832F5000CE8B7C /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		44902AC02B84DDEB00095195 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		44902AC22B84E04600095195 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		4417C5142B832FAE00CE8B7C /* Memory */ = {
 			isa = PBXGroup;
 			children = (
+				44902AC02B84DDEB00095195 /* Memo.swift */,
+				44902AC22B84E04600095195 /* MemoStore.swift */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -162,9 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4417C4FE2B832DF100CE8B7C /* SwiftUIMemoAkoApp.swift in Sources */,
+				44902AC32B84E04600095195 /* MemoStore.swift in Sources */,
 				4417C5122B832F5000CE8B7C /* MainListView.swift in Sources */,
 				4417C5002B832DF100CE8B7C /* Persistence.swift in Sources */,
 				4417C5032B832DF100CE8B7C /* SwiftUIMemoAko.xcdatamodeld in Sources */,
+				44902AC12B84DDEB00095195 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
