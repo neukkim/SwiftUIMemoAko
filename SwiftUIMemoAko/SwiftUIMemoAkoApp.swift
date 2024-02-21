@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct SwiftUIMemoAkoApp: App {
+  //메모 저장소 커스텀 데이터, 속성으로 저장
+  @StateObject var store = MemoStore()
+  
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
@@ -19,6 +22,7 @@ struct SwiftUIMemoAkoApp: App {
           //변경
           MainListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(store)
         }
     }
 }
